@@ -1,0 +1,86 @@
+.buttons-container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connection-container,
+.alreadyHasAcc-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(148, 148, 148);
+    font-weight: lighter;
+}
+
+.costom-container {
+    width: 100%;
+    max-height: 300px;
+    padding-top: 20px;
+
+}
+
+
+/* add user form */
+.registerUser-form,
+.loginUser-form {
+    width: 40%;
+    height: 80%;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.registerUser-form h2,
+.loginUser-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.registerUser-form form,
+.loginUser-form form {
+    margin-top: 20px;
+}
+
+.registerUser-form .btn-primary,
+.loginUser-form .btn-primary{
+    width: 100%;
+    background-color: cadetblue;
+    border-color: cadetblue;
+}
+
+.registerUser-form .btn-primary:hover,
+.loginUser-form .btn-primary:hover {
+    background-color: rgb(83, 143, 144);
+    border-color: rgb(83, 143, 144);
+}
+.container-costom-container {
+    display: flex;
+    justify-content: center;
+}
+
+.registerUser-form {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .registerUser-form {
+        width: 100%;
+    }
+}
+#termservice{
+    margin-left: 10px;
+}
+
+/* end of add user form */
+
